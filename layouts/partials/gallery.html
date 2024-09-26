@@ -1,0 +1,20 @@
+{{ with .Site.Data.gallery }}
+  {{ if .enable }}
+  <section class="site-project" id="gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-title">
+            <h2>Gallery</h2>
+          </div>
+        </div>
+        <ul class="gallery">
+          {{ range .galleryImages }}
+          <img src={{ .image }}>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+{{ end }}

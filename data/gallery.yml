@@ -1,0 +1,8 @@
+enable: true
+galleryImages:
+  - image : images/gallery/image1.png
+  - image : images/gallery/image2.png
+  - image : images/gallery/image3.png
+  - image : images/gallery/image4.png
+  - image : images/gallery/image5.png
+  

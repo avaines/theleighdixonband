@@ -1,0 +1,14 @@
+enable : true
+heading : "SEE THE LEIGH DIXON BAND!"
+counter_item: 
+  - date: 1st January
+    venue: "Some Venue"
+
+  - date: 1st March
+    venue: "Another Venue"
+
+  - date: 1st May
+    venue: "A very large venue"
+
+  - date: 1st July
+    venue: "A Venue"

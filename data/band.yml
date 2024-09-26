@@ -1,0 +1,22 @@
+enable: true
+title: The Band
+members:
+  - image       : images/band/leigh.png
+    name        : LEIGH DIXON
+    designation : Vocals
+    instagram   : https://www.instagram.com/
+
+  - image       : images/band/aaron.png
+    name        : AARON BAXTER
+    designation : Lead Guitar
+    instagram   : https://www.instagram.com/
+
+  - image       : images/band/bass.png
+    name        : TBC
+    designation : Bass
+    instagram   : https://www.instagram.com/
+
+  - image       : images/band/percussion.png
+    name        : TBC
+    designation : Percussion
+    instagram   : https://www.instagram.com/

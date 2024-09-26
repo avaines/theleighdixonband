@@ -1,0 +1,10 @@
+.DS_Store
+.hugo_build.lock
+.vscode/
+*.lock
+content/test/
+hugo_stats.json
+node_modules
+public/
+resources/_gen/
+themes/roxo-hugo/exampleSite

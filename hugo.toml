@@ -1,3 +1,116 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL       = "http://example.org/"
+languageCode  = "en-gb"
+title         = "The Leigh Dixon Band"
+theme         = "roxo-hugo"
+summarylength = 25
+
+# Site Menus
+[menu]
+  # Navbar Menus
+  [[menu.nav]]
+    name    = "Home"
+    url     = ""
+    weight  = 1
+  [[menu.nav]]
+    name    = "About"
+    url     = "about"
+    weight  = 2
+  [[menu.nav]]
+    name    = "Gallery"
+    url     = "#gallery"
+    weight  = 3
+  [[menu.nav]]
+    name    = "Get in touch"
+    url     = "contact"
+    weight  = 4
+
+# Site Params
+[params]
+  logo = "images/logo.png"
+  logo_footer = "images/logo-footer.png"
+  favicon_icon = "images/favicon.png"
+  favicon_shortcut_icon = "images/favicon.png"
+  custom_stylesheets = ["css/custom.scss"]  # [ "scss/my_1.scss", "scss/my_2.scss" ]
+  dateFormat = "26 FEB 1994"
+  # Meta data
+  description = "Roxo Hugo themes | Design Agency Template by StaticMania"
+  author = "The Leigh Dixon Band"
+  # Google Analitycs
+  googleAnalitycsID = "Your ID"
+  # We're using formspree.io for form handling, paste your formspree url below
+  fabform  = "https://fabform.io/f/USAg2Jl"
+
+  # Contact Form
+  [params.contactForm]
+    placeholder_first_name        = "First Name"
+    placeholder_last_name         = "Last Name"
+    placeholder_email             = "Email"
+    placeholder_project_type      = "Gig Type"
+    placeholder_about_the_project = "About the Gig"
+    send_message                  = "Send Message"
+
+    [[params.contactForm.projectType]]
+      value = "venue"
+      title  = "Venue Booking Enquiry"
+    [[params.contactForm.projectType]]
+      value = "event"
+      title  = "Event Enquiry"
+  
+  # Navbar Action Button
+  [params.navAction]
+    status  = true
+    name    = "Get in touch"
+    url     = "contact"
+  
+  # Banner Section
+  [params.banner]
+    enable                = true
+    background_image      = "images/backgrounds/hero-background.jpg"
+    primary_button        = "See us"
+    primary_button_url    = "#gallery"
+    secondary_button      = "Connect with Us"
+    secondary_button_url  = "contact"
+
+  [params.call_to_action]
+    enable              = true
+    background_image    = "images/backgrounds/cta-background.jpg"
+    title               = "NEED A BAND?"
+    primary_button      = "Hire Us"
+    primary_button_url  = "contact"
+
+  [params.footer]
+    params.footer.qr_print = false
+    # Footer Contact Info
+    # [params.footer.contactInfo]
+    #   title   = "Contact Info"
+    #   address = "713 Elmwood St.<br>Prior Lake, MN 55372"
+    #   phone   = "409-896-1444"
+    #   email   = "info@roxo.co"
+      # Footer Sitemap
+      [params.footer.sitemap]
+        title   = "Sitemap"
+        [[params.footer.sitemap.link]]
+          name = "About The Band"
+          url  = "about"
+        [[params.footer.sitemap.link]]
+          name = "Gallery"
+          url  = "#gallery"
+        [[params.footer.sitemap.link]]
+          name = "Contact"
+          url  = "contact"
+
+      # Footer Social Media
+      [params.footer.social]
+        title   = "Social Media"
+        [[params.footer.social.link]]
+          name = "BandCamp"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "Facebook"
+          url  = "https://www.facebook.com/profile.php?id=100090502980299"
+        [[params.footer.social.link]]
+          name = "Instagram"
+          url  = "#"
+        [[params.footer.social.link]]
+          name = "YouTube"
+          url  = "#"
